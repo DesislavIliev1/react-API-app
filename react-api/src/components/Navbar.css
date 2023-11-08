@@ -1,0 +1,35 @@
+.nav{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #0d1f0e;
+color: #fff;
+padding: 10px;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+transition: all 0.3s ease-in-out;
+}
+
+/* .nav:hover {
+    background-color: #365a41;
+    box-shadow: 0px 4px 10px rgba(46, 82, 58, 0.5);
+} */
+li{
+    display: inline;
+    float: left;
+    padding: 8px;
+}
+
+
+.nav a {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover {
+    
+    color: beige;
+}
